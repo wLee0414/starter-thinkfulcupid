@@ -87,7 +87,7 @@ Your final form design should look as follows:
 
 Now that your mobile design is looking good, you will need to adapt the design for the desktop view.
 
-- In `style.css`, create a media query that applies CSS rules for screens that are wider than `480px`.
+- In `style.css`, create a media query that applies CSS rules for screens that are wider than `768px`.
 
 Within the media query, write CSS to create the following designs for desktop:
 
