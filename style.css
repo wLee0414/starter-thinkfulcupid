@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -70,7 +70,7 @@ header nav {
   justify-content: center;
 }
 
-.menu {
+header nav ul {
   display: flex;
   padding-left: 0;
 }
