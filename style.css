@@ -65,6 +65,16 @@ header {
   color: #ecdbc9;
 }
 
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  padding-left: 0;
+}
+
 header nav ul li {
   list-style-type: none;
 }
