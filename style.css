@@ -213,18 +213,18 @@ footer p {
 
   /*--blog--*/
 
+  #blog h2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
   .blog-group {
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
   }
 
-  .blog-group img {
-    width: 48%;
-  }
-
-  .group {
-    width: 48%;
-    margin-top: -10px;
+  #blog .group {
+    width: 49%;
     margin-bottom: 20px;
   }
 
