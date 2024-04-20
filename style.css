@@ -3,18 +3,17 @@
 body {
   font-family: "Lato", sans-serif;
   color: #6b1a22;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 26px;
-  font-weight: 400;
   margin: 0 10px 15px 10px;
   text-align: center;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 500;
 }
 
 p {
@@ -23,7 +22,7 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 30px;
 }
 
 section.alternate-background {
@@ -33,7 +32,10 @@ section.alternate-background {
 
 main img {
   width: 100%;
+  display: flex;
+  margin-bottom: 20px
 }
+
 
 /* ---  Groups & Items --- */
 
@@ -91,6 +93,7 @@ header nav ul li a:hover {
 }
 
 /* -------  Join Form ------- */
+
 form {
   border: 2px solid #6b1a22;
   padding: 10px;
@@ -115,6 +118,10 @@ form button {
   width: 100%;
 }
 
+form div {
+  display: flex;
+  justify-content: space-between;
+}
 /* -------  Footer ------- */
 
 footer {
@@ -128,3 +135,97 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 768px) {
+  section {
+    padding: 10px;
+  }
+  /*--nav--*/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 52px;
+  }
+
+  /*--join--*/
+
+  #join {
+    display: flex;
+    margin-bottom: -20px;
+    align-items: center;
+  }
+
+  .join-img {
+    flex: 2;
+    padding-right: 10px;
+  }
+
+  .join-form {
+    flex: 1;
+  }
+
+  form {
+    margin-bottom: 40px;
+  }
+
+  /*--about--*/
+
+  #about h2 {
+    padding-top: 10px;
+  }
+
+  .about-body {
+    display: flex;
+  }
+
+  .body-img {
+    flex: 1;
+    margin: 10px;
+  }
+
+  #about p {
+    flex: 2;
+    align-content: center;
+  }
+
+  /*--download--*/
+
+  #download {
+    display: flex;
+    margin-bottom: -20px;
+  }
+
+  .download-text {
+    flex-direction: column;
+    flex: 1;
+    align-content: center;
+  }
+
+  .download-img {
+    flex: 1;
+    margin: 10px;
+  }
+
+  /*--blog--*/
+
+  .blog-group {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .blog-group img {
+    width: 48%;
+  }
+
+  .group {
+    width: 48%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+}
